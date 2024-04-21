@@ -1,0 +1,38 @@
+import asyncio
+from pyrogram import Client, filters
+from pyrogram.types import Message
+from config import SUDO_USERS
+
+@Client.on_message(filters.user(SUDO_USERS) & filters.command(["sex", "sux"], ["."]))
+async def sux(client: Client, message: Message):
+    await message.edit("🤵‍♂               👰‍♀")
+    await asyncio.sleep(0.5)
+    await message.edit("🤵‍♂            👰‍♀")
+    await asyncio.sleep(0.5)
+    await message.edit("🤵‍♂       👰‍♀")
+    await asyncio.sleep(0.5)
+    await message.edit("🤵‍♂👼👰‍♀")
+    await asyncio.sleep(0.5)
+    await message.edit("🤵‍♂              👰‍♀")
+    await asyncio.sleep(0.5)
+    await message.edit("🤵‍♂        👰‍♀")
+    await asyncio.sleep(0.5)
+    await message.edit("🤵‍♂   👰‍♀")
+    await asyncio.sleep(0.5)
+    await message.edit("🤵‍♂👼👰‍♀")
+    await asyncio.sleep(0.5)
+    await message.edit("🤵‍♂              👰‍♀")
+    await asyncio.sleep(0.5)
+    await message.edit("🤵‍♂        👰‍♀")
+    await asyncio.sleep(0.5)
+    await message.edit("🤵‍♂   👰‍♀")
+    await asyncio.sleep(0.5)
+    await message.edit("🤵‍♂👼👰‍♀")
+    await asyncio.sleep(0.5)
+    await message.edit("🤵‍♂              👰‍♀")
+    await asyncio.sleep(0.5)
+    await message.edit("🤵‍♂        👰‍♀")
+    await asyncio.sleep(0.5)
+    await message.edit("🤵‍♂   👰‍♀")
+    await asyncio.sleep(0.5)
+    await message.edit("🤵‍♂👼👰‍♀")
